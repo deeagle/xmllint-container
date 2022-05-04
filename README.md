@@ -11,7 +11,7 @@ Installed tools are:
 
 ## Usage
 
-You can check your xml: 
+You can check your xml against:
 
 - DTD
   `xmllint --dtdvalid schema.dtd --noout file.txt`
