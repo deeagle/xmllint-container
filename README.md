@@ -9,6 +9,7 @@ Container includes semantic-release to gitea for CI.
 Installed tools are:
 
 - `libxml2-utils`
+- `rsync`
 
 ## Usage
 
