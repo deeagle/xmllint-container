@@ -3,4 +3,4 @@ LABEL maintainer="deeagle <code@deeagle.de>"
 
 WORKDIR /app
 
-RUN apk --no-cache add libxml2-utils
+RUN apk --no-cache add libxml2-utils rsync
