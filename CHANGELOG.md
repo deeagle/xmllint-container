@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.1](https://github.com/deeagle/xmllint-container/compare/v1.0.0...v1.0.1) (2022-05-05)
+
+
+### Bug Fixes
+
+* add rsync ([484f852](https://github.com/deeagle/xmllint-container/commit/484f852c475f3160605ea501ba4053342afd8968))
+
 # 1.0.0 (2022-05-05)
 
 
