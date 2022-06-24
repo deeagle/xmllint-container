@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.2](https://github.com/deeagle/xmllint-container/compare/v1.0.1...v1.0.2) (2022-06-24)
+
+
+### Bug Fixes
+
+* **dockerfile:** update container infos ([7007d44](https://github.com/deeagle/xmllint-container/commit/7007d44d1371aee1c2f4ba012a40cf2ced758a4d))
+
 ## [1.0.1](https://github.com/deeagle/xmllint-container/compare/v1.0.0...v1.0.1) (2022-05-05)
 
 
