@@ -1,5 +1,9 @@
 FROM alpine:3
-LABEL maintainer="deeagle <code@deeagle.de>"
+LABEL org.opencontainers.image.authors="Martin Kock <code@deeagle.de>" \
+      org.opencontainers.image.url="https://github.com/deeagle/xmllint-container" \
+      org.opencontainers.image.title="XML/DTD tools." \
+      org.opencontainers.image.description="The tool xmllint in an alpine container for CI." \
+      org.opencontainers.image.vendor="deeagle.de"
 
 WORKDIR /app
 
