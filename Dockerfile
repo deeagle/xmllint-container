@@ -1,4 +1,5 @@
-FROM alpine:3
+FROM alpine:3.20
+
 LABEL org.opencontainers.image.authors="Martin Kock <code@deeagle.de>" \
       org.opencontainers.image.url="https://github.com/deeagle/xmllint-container" \
       org.opencontainers.image.title="XML/DTD tools." \

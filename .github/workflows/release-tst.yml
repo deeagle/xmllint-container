@@ -1,12 +1,16 @@
 name: Release test
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the main branch
+permissions:
+  contents: write
+  issues: write
+
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   # Only for testing of the release environment.
@@ -20,7 +24,7 @@ jobs:
       - name: Setup Nodejs
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Install dependencies
         run: npm install @semantic-release/changelog @semantic-release/git @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec @semantic-release/git semantic-release/release-notes-generator
