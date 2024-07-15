@@ -14,15 +14,25 @@ Installed tools are:
 
 ## Usage
 
-You can check your xml against:
+You can check your different formats via the following example commands:
 
 - DTD
-  `xmllint --dtdvalid schema.dtd --noout file.txt`
-- XSD
-  `xmllint --schema schema.xsd --noout file.xml`
 
+  ```bash
+  xmllint --dtdvalid schema.dtd --noout file.txt
+  ```
+
+- XSD
+
+  ```bash
+  xmllint --schema schema.xsd --noout file.xml
+  ```
+  
 - XSLT
-  `xsltproc file.xsl`
+
+  ```bash
+  xsltproc file.xsl
+  ```
 
 ## Weblinks
 
