@@ -18,7 +18,6 @@ You can check your xml against:
 
 - DTD
   `xmllint --dtdvalid schema.dtd --noout file.txt`
-
 - XSD
   `xmllint --schema schema.xsd --noout file.xml`
 
