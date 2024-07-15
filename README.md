@@ -9,6 +9,7 @@ Container includes semantic-release to gitea for CI.
 Installed tools are:
 
 - `libxml2-utils`
+- `libxslt`
 - `rsync`
 
 ## Usage
@@ -20,6 +21,9 @@ You can check your xml against:
 
 - XSD
   `xmllint --schema schema.xsd --noout file.xml`
+
+- XSLT
+  `xsltproc file.xsl`
 
 ## Weblinks
 
