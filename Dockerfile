@@ -8,4 +8,4 @@ LABEL org.opencontainers.image.authors="Martin Kock <code@deeagle.de>" \
 
 WORKDIR /app
 
-RUN apk --no-cache add libxml2-utils rsync
+RUN apk --no-cache add libxml2-utils rsync libxslt
