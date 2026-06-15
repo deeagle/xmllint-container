@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.1](https://github.com/deeagle/xmllint-container/compare/v1.1.0...v1.1.1) (2026-06-15)
+
+
+### Bug Fixes
+
+* **ci:** typo debs to deps ([cadc2a8](https://github.com/deeagle/xmllint-container/commit/cadc2a863bbbb8a8bbb8f0b9cbf6dd8f784034ae))
+
 ## [1.0.2](https://github.com/deeagle/xmllint-container/compare/v1.0.1...v1.0.2) (2022-06-24)
 
 
