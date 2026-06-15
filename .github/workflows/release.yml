@@ -80,3 +80,4 @@ jobs:
           build-args: |
             BUILD_DATE=${{ runner.timestamp }}
             GIT_COMMIT=${{ github.sha }}
+            BUILD_ENVIRONMENT=github-action
