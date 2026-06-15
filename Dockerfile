@@ -1,4 +1,4 @@
-FROM alpine:3.24@sha256:05034718919885704b05280c17139545b051222521b1b2700047401b33818999
+FROM docker.io/alpine:3.24@sha256:a2d49ea686c2adfe3c992e47dc3b5e7fa6e6b5055609400dc2acaeb241c829f4
 
 LABEL org.opencontainers.image.authors="Martin Kock <code@deeagle.de>" \
       org.opencontainers.image.url="https://github.com/deeagle/xmllint-container" \
