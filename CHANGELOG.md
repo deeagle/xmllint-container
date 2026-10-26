@@ -1,5 +1,7 @@
 # Semantic Versioning Changelog
 
+## [1.1.8](https://github.com/deeagle/xmllint-container/compare/v1.1.7...v1.1.8) (2026-10-26)
+
 ## [1.1.7](https://github.com/deeagle/xmllint-container/compare/v1.1.6...v1.1.7) (2026-09-30)
 
 ## [1.1.6](https://github.com/deeagle/xmllint-container/compare/v1.1.5...v1.1.6) (2026-08-31)
